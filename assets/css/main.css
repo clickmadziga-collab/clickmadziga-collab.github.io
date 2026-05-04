@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1655,4 +1658,34 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
-		}
+		}.contact-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-icons a {
+  font-size: 28px;
+  color: #e3e6e9;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.2);
+  color: #0077b5; /* default hover color (LinkedIn blue style) */
+}
+label {
+  display: block;
+  margin-bottom: 3px;   /* controls space below label */
+}
+input[type="submit"],
+input[type="reset"] {
+  margin-top: 15px;
+}
+.about-text {
+  text-align: justify;
+}
+.projects-text {
+  text-align: justify;
+}
