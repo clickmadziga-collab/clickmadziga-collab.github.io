@@ -1658,34 +1658,31 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
-		}.contact-icons {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+		}
+		.about-text,
+.projects-text {
+  text-align: justify;
 }
-
-.contact-icons a {
-  font-size: 28px;
-  color: #e3e6e9;
-  text-decoration: none;
+.icons a {
   transition: 0.3s ease;
 }
 
-.contact-icons a:hover {
+.icons a:hover {
+  color: #1e90ff;
+}
+.icons a {
+  font-size: 1.6rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icons a:hover {
   transform: scale(1.2);
-  color: #0077b5; /* default hover color (LinkedIn blue style) */
+  color: #1e90ff;
 }
-label {
-  display: block;
-  margin-bottom: 3px;   /* controls space below label */
+img {
+  transition: 0.3s ease;
 }
-input[type="submit"],
-input[type="reset"] {
-  margin-top: 15px;
-}
-.about-text {
-  text-align: justify;
-}
-.projects-text {
-  text-align: justify;
+
+img:hover {
+  transform: scale(1.03);
 }
