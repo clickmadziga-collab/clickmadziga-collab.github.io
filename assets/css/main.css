@@ -650,7 +650,7 @@ input, select, textarea {
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
-			display: block;
+			display: none;
 			height: 100%;
 			left: 0;
 			opacity: 0.5;
